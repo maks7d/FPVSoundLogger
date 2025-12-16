@@ -45,6 +45,8 @@ This project is the result of that idea.
 - **Once disarmed** — whether after a normal end of flight or a dramatic crash — the module **stops recording** and finalizes the audio file with the proper header
 - Remove the SD card and retrieve the **WAV file** that matches the exact flight duration
 - Import the audio into your favorite video editor and drop it on the timeline — it syncs effortlessly with the DJI footage !
+> **⚠️ Fine-tuning tip:** Due to DJI's camera initialization delay after arming, 
+> you may need to offset the audio track by **0.5-2 seconds** in your editor. 
 
 ![FilesDurations](resources/images/micAndVideoDuration.png)
 
