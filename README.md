@@ -119,10 +119,12 @@ print(f"WE ARE {'fpv'.upper()}")
 <img src="resources/images/MicroPythonInstalled.png">
 
 ##### 6. Project files to upload
+```
 ├── main.py                    # Main application (auto-runs on boot)
    └── lib/
        ├── sdcard.py              # SD card driver
        └── fpv_sound_logger.py    # Core logger class
+```
 
 - In Thonny, go to **View > Files**
 - In your computer's file panel (left side), navigate to your project folder
@@ -133,9 +135,10 @@ print(f"WE ARE {'fpv'.upper()}")
 - Thonny will upload the entire structure automatically
 
 > **Note:** This method preserves the folder structure. The `lib` folder and its contents will be uploaded correctly.
-
+<p align="center">
 <img src="resources/images/lib_upload_to.png">
 <img src="resources/images/lib_main_uploaded.png">
+</p>
 
 ### TX && Betaflight configuration
 
