@@ -18,9 +18,10 @@ So I wanted a solution that would be simple/lightweight/inexpensive and capable 
 This project is the result of that idea.
 
 ##### Démo
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=XYwBHS1GdF4)
 [![SoundCloud](https://img.shields.io/badge/SoundCloud-Écouter-orange)](https://on.soundcloud.com/oyk3qiLrCShgnDtLTU)
 [![Play](resources/images/waveform.png)](resources/audio/sample.wav)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=XYwBHS1GdF4)
+
 
 
 ## Features
