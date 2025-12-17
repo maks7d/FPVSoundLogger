@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "fpv_sound_logger")(type "KiCad")(uri "C:/Users/maxim/repos/FPVSoundLogger/fpv_sound_logger.pretty")(options "")(descr ""))
+)
