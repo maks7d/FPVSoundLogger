@@ -1,4 +1,4 @@
-26816749488396132
+26820281495422240
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -106543,6 +106543,20 @@ fpv_sound_logger
 B3U-1000P
 B3U-1000P(M)
 Switch
+0
+2
+2
+fpv_sound_logger
+CONN-SMD_4P-P1.00_SM04B-SRSS-TB-LF-SN
+
+
+0
+6
+6
+fpv_sound_logger
+DIOM5227X270N
+SMA JEDEC DO-214 AC
+Schottky Diode
 0
 2
 2

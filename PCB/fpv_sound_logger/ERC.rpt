@@ -1,0 +1,45 @@
+ERC report (2025-12-17T21:49:53+0100, Encoding UTF8)
+
+***** Sheet /
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(1850 mils, 4300 mils): Symbol D2 Pin 2 [A, Power output, Line]
+    @(1800 mils, 4300 mils): Symbol USB1 Pin 2 [VBUS, Power output, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(2550 mils, 4250 mils): Symbol #PWR015 Pin 1 [Power input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''.
+    ; warning
+    @(2550 mils, 4300 mils): Symbol D2 [SS14]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(4900 mils, 1700 mils): Symbol U2 Pin 4 [L/R, Bidirectional, Line]
+    @(1800 mils, 4400 mils): Symbol USB1 Pin 1 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(4900 mils, 1800 mils): Symbol U2 Pin 5 [GND, Bidirectional, Line]
+    @(1800 mils, 4400 mils): Symbol USB1 Pin 1 [GND, Power output, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'ProLib_pcs_2025-12-17'.
+    ; warning
+    @(4900 mils, 3400 mils): Symbol CN1 [SM04B-SRSS-TB (LF)(SN)]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(5800 mils, 1450 mils): Symbol U2 Pin 9 [GND, Bidirectional, Line]
+    @(1800 mils, 4400 mils): Symbol USB1 Pin 1 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(5800 mils, 1550 mils): Symbol U2 Pin 8 [CHIPEN, Bidirectional, Line]
+    @(4100 mils, 4250 mils): Symbol IC2 Pin 2 [OUTPUT_1, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(5800 mils, 1650 mils): Symbol U2 Pin 7 [VDD, Bidirectional, Line]
+    @(4100 mils, 4250 mils): Symbol IC2 Pin 2 [OUTPUT_1, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(5800 mils, 1750 mils): Symbol U2 Pin 6 [GND, Bidirectional, Line]
+    @(1800 mils, 4400 mils): Symbol USB1 Pin 1 [GND, Power output, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''.
+    ; warning
+    @(5800 mils, 3550 mils): Symbol D1 [SS14]
+
+ ** ERC messages: 11  Errors 2  Warnings 9
