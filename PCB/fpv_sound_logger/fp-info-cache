@@ -1,18 +1,4 @@
-26816740015925865
-Audio_Module
-Reverb_BTDR-1H
-Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
-audio belton reverb
-0
-7
-7
-Audio_Module
-Reverb_BTDR-1V
-Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
-audio belton reverb
-0
-7
-7
+26816749488396132
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -106554,6 +106540,13 @@ Crystal or Oscillator
 4
 4
 fpv_sound_logger
+B3U-1000P
+B3U-1000P(M)
+Switch
+0
+2
+2
+fpv_sound_logger
 DM3DSF
 DM3D-SF-4
 Connector
@@ -106581,3 +106574,10 @@ Integrated Circuit
 0
 4
 4
+fpv_sound_logger
+USB-C-SMD_TYPE-C-6PIN-2MD-073
+
+
+0
+16
+14
