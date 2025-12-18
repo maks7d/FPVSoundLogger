@@ -1,4 +1,4 @@
-26820281495422240
+26822047538585936
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -106567,6 +106567,13 @@ Connector
 0
 14
 14
+fpv_sound_logger
+INS66TFT5R5G5B
+IN-S66TFT5R5G5B-1
+LED
+0
+6
+6
 fpv_sound_logger
 MID-SMD_L4.7-W3.8_INMP441ACEZ
 

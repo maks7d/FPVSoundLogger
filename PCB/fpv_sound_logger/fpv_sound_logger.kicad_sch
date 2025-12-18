@@ -2197,6 +2197,230 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SoundLogger:IN-S66TFT5R5G5B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 31.75 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "IN-S66TFT5R5G5B"
+				(at 31.75 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "INS66TFT5R5G5B"
+				(at 31.75 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.ph/en/products/detail/inolux/IN-S66TFT5R5G5B/14555718?msockid=39f1ec84d77b6f4428b7f904d6676eed"
+				(at 31.75 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Red, Green, Blue (RGB) 620nm Red, 525nm Green, 470nm Blue LED Indication - Discrete 2V Red, 2.8V Green, 2.8V Blue 0606 (1616 Metric)"
+				(at -3.048 9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.5"
+				(at 31.75 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "743-IN-S66TFT5R5G5B"
+				(at 31.75 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Inolux/IN-S66TFT5R5G5B?qs=stqOd1AaK7%2FLVY5moRrQGg%3D%3D"
+				(at 31.75 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Inolux"
+				(at 31.75 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "IN-S66TFT5R5G5B"
+				(at 31.75 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "IN-S66TFT5R5G5B_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 30.48 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "K_BLUE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "K_RED_"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "K_GREEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "A_BLUE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -2.54 180)
+					(length 5.08)
+					(name "A_RED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -5.08 180)
+					(length 5.08)
+					(name "A_GREEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SoundLogger:INMP441ACEZ-R7"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2358,7 +2582,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -12.7 -1.27 0)
 					(length 2.54)
 					(name "L/R"
@@ -2376,7 +2600,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -12.7 -3.81 0)
 					(length 2.54)
 					(name "GND"
@@ -2394,7 +2618,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 10.16 5.08 180)
 					(length 2.54)
 					(name "GND"
@@ -2448,7 +2672,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "GND"
@@ -3229,7 +3453,7 @@
 						(type none)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at -11.43 13.97 0)
 					(length 2.54)
 					(name "GND"
@@ -4095,6 +4319,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power)
 			(pin_numbers
@@ -4231,7 +4556,7 @@
 		)
 		(uuid "00aa21d6-7959-4716-bb95-e265fe96ab2b")
 	)
-	(text "C9 must be physically \nclose pin 45 ADC_AVDD"
+	(text "C9 must be physically \nclose pin 45 VREG_VOUT"
 		(exclude_from_sim no)
 		(at 193.802 57.404 0)
 		(effects
@@ -4241,9 +4566,9 @@
 		)
 		(uuid "0284494c-e819-40fb-9648-2eb4a8d37b21")
 	)
-	(text "SD connector\n"
+	(text "µSD connector\n"
 		(exclude_from_sim no)
-		(at 149.606 115.062 0)
+		(at 148.336 110.744 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4291,6 +4616,16 @@
 		)
 		(uuid "ac705411-7f26-4a17-b360-bfe8fc5439b4")
 	)
+	(text "RGB LED indicator"
+		(exclude_from_sim no)
+		(at 146.05 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c1266804-b2dd-4a0f-8317-2a0a4ccc21ec")
+	)
 	(text "JST 4-PIN connector"
 		(exclude_from_sim no)
 		(at 137.16 65.278 0)
@@ -4301,7 +4636,7 @@
 		)
 		(uuid "d1c1f3fb-2cd0-4f10-94f5-6a22bb8e5160")
 	)
-	(text "C8 must be physically \nclose pin 43 ADC_AVDD"
+	(text "C8 must be physically \nclose pin 43 VREG_IN\n"
 		(exclude_from_sim no)
 		(at 254.508 56.388 0)
 		(effects
@@ -4322,7 +4657,7 @@
 		(uuid "feda6204-2afb-46a6-b2cb-87a8f1cd9f5c")
 	)
 	(junction
-		(at 135.89 146.05)
+		(at 135.89 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "021479db-165e-45ad-a534-9ef789602d4c")
@@ -4340,22 +4675,28 @@
 		(uuid "1337ab9c-b9ac-402a-8ff8-3b1fd1bb7960")
 	)
 	(junction
-		(at 64.77 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "164473ee-6db8-4d94-9f39-e495eda2f179")
-	)
-	(junction
-		(at 181.61 138.43)
+		(at 181.61 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1928d456-5b48-4857-a778-ea4b7032dbbb")
 	)
 	(junction
-		(at 181.61 135.89)
+		(at 172.72 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b43f595-8e13-497b-8646-52c44c684ddd")
+	)
+	(junction
+		(at 181.61 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32a20bbe-4a61-4f0f-ab3e-575bf145f06d")
+	)
+	(junction
+		(at 172.72 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3eaccbfb-32dc-4ae6-af87-f31455e1faba")
 	)
 	(junction
 		(at 78.74 36.83)
@@ -4412,7 +4753,7 @@
 		(uuid "57c63136-220f-447d-bf70-924d9e95be18")
 	)
 	(junction
-		(at 128.27 135.89)
+		(at 128.27 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5df8bc94-92b4-445c-9f04-d54a0819b053")
@@ -4466,7 +4807,7 @@
 		(uuid "9293eafe-75c1-4826-bb5a-43050741a9cb")
 	)
 	(junction
-		(at 181.61 140.97)
+		(at 181.61 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "934621a4-9271-4ff2-b8d8-1b4bb7333b9f")
@@ -4484,13 +4825,13 @@
 		(uuid "9f594a56-50ed-487f-abd4-517a1b4da386")
 	)
 	(junction
-		(at 125.73 146.05)
+		(at 125.73 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a19f2269-4e76-4724-83f9-c8448b3ee3d4")
 	)
 	(junction
-		(at 181.61 133.35)
+		(at 181.61 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a30c58e7-7559-4304-832b-4a21ba3b519f")
@@ -4508,7 +4849,7 @@
 		(uuid "a602aa3a-3ce7-439f-9bf6-45feff8e09c6")
 	)
 	(junction
-		(at 181.61 143.51)
+		(at 181.61 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a77b7e69-72d8-493e-afec-8e0931f63492")
@@ -4532,7 +4873,7 @@
 		(uuid "aeb5dbc3-8415-4d33-8c3a-1e56bd810b5d")
 	)
 	(junction
-		(at 128.27 130.81)
+		(at 128.27 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3de2aed-e5d9-484f-9760-6cde7174f3a0")
@@ -4604,7 +4945,7 @@
 		(uuid "f18d7e75-1f04-4ed5-9e36-e72aa7f5a24f")
 	)
 	(junction
-		(at 125.73 135.89)
+		(at 125.73 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1d9274b-b425-414f-8bc7-c4f6660c138f")
@@ -4624,10 +4965,6 @@
 	(no_connect
 		(at 45.72 106.68)
 		(uuid "38c270af-a0a4-41c7-8cf7-c93c556c320e")
-	)
-	(no_connect
-		(at 248.92 80.01)
-		(uuid "3a2e7cef-7237-4ab8-a491-add6cd63d3dc")
 	)
 	(no_connect
 		(at 248.92 118.11)
@@ -4650,12 +4987,8 @@
 		(uuid "6fd2ce59-4bb7-4ac9-8696-c6a4029a2b47")
 	)
 	(no_connect
-		(at 146.05 128.27)
+		(at 146.05 116.84)
 		(uuid "7e0b8c69-20b3-4933-aaf9-81147df7a501")
-	)
-	(no_connect
-		(at 248.92 77.47)
-		(uuid "831c5b5d-12f7-4f35-b21c-0478c1148fb7")
 	)
 	(no_connect
 		(at 248.92 113.03)
@@ -4678,7 +5011,7 @@
 		(uuid "aee277d6-4dc2-4cbc-9ca7-1b9776947eb2")
 	)
 	(no_connect
-		(at 179.07 128.27)
+		(at 179.07 116.84)
 		(uuid "b09f6c72-411e-412e-bdba-c0f589ac6fcd")
 	)
 	(no_connect
@@ -4688,10 +5021,6 @@
 	(no_connect
 		(at 45.72 91.44)
 		(uuid "d24a590b-fe03-4196-a2ac-88e9508798a1")
-	)
-	(no_connect
-		(at 248.92 82.55)
-		(uuid "e73bd699-c84c-4716-911d-c2b4391811d8")
 	)
 	(no_connect
 		(at 248.92 115.57)
@@ -4717,17 +5046,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 107.95) (xy 64.77 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0216b6dd-a64f-43f7-a602-62b71d4c054f")
-	)
-	(wire
-		(pts
-			(xy 138.43 130.81) (xy 146.05 130.81)
+			(xy 138.43 119.38) (xy 146.05 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4845,6 +5164,16 @@
 		)
 		(uuid "0e526885-fc52-47b6-8750-d7ebcdddf041")
 	)
+	(wire
+		(pts
+			(xy 270.51 46.99) (xy 270.51 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f04621c-cf81-477d-b0a3-10d2d53c1ac4")
+	)
 	(polyline
 		(pts
 			(xy 12.7 60.96) (xy 106.68 60.96)
@@ -4857,7 +5186,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 144.78) (xy 120.65 146.05)
+			(xy 120.65 133.35) (xy 120.65 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4897,6 +5226,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 165.1) (xy 125.73 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16037f44-7ccb-4c08-9909-e4112de1431f")
+	)
+	(wire
+		(pts
 			(xy 193.04 76.2) (xy 195.58 76.2)
 		)
 		(stroke
@@ -4907,7 +5246,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 138.43) (xy 137.16 138.43)
+			(xy 129.54 127) (xy 137.16 127)
 		)
 		(stroke
 			(width 0)
@@ -4924,6 +5263,16 @@
 			(type default)
 		)
 		(uuid "17677aad-dadc-47a0-a044-e97b50fde1f1")
+	)
+	(wire
+		(pts
+			(xy 172.72 157.48) (xy 172.72 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19504a76-0cb5-43c8-a399-3d6efb550ddc")
 	)
 	(wire
 		(pts
@@ -5017,6 +5366,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 165.1) (xy 170.18 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213af133-501f-423b-8bb5-1173e30a94d0")
+	)
+	(wire
+		(pts
 			(xy 54.61 97.79) (xy 54.61 104.14)
 		)
 		(stroke
@@ -5097,7 +5456,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 130.81) (xy 179.07 130.81)
+			(xy 181.61 119.38) (xy 179.07 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5144,6 +5503,16 @@
 			(type default)
 		)
 		(uuid "2bcc6f7f-0fc9-49c5-a246-04b81d56c223")
+	)
+	(wire
+		(pts
+			(xy 248.92 82.55) (xy 256.54 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c6a181b-5b6e-4215-acbd-3cdb25c02d6b")
 	)
 	(wire
 		(pts
@@ -5197,7 +5566,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 135.89) (xy 128.27 130.81)
+			(xy 128.27 124.46) (xy 128.27 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5217,7 +5586,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 143.51) (xy 181.61 140.97)
+			(xy 172.72 162.56) (xy 172.72 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3168a655-5bb4-4e84-9acc-e009444f8384")
+	)
+	(wire
+		(pts
+			(xy 181.61 132.08) (xy 181.61 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5247,7 +5626,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 146.05) (xy 135.89 147.32)
+			(xy 135.89 134.62) (xy 135.89 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5257,7 +5636,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 146.05) (xy 135.89 146.05)
+			(xy 125.73 134.62) (xy 135.89 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5274,6 +5653,16 @@
 			(type default)
 		)
 		(uuid "36da059e-a60a-4c82-8268-8c8b17e0d1d7")
+	)
+	(wire
+		(pts
+			(xy 161.29 165.1) (xy 162.56 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379611d6-15c3-4f5c-9497-ecb5e06d8086")
 	)
 	(wire
 		(pts
@@ -5307,7 +5696,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 140.97) (xy 181.61 138.43)
+			(xy 181.61 129.54) (xy 181.61 127)
 		)
 		(stroke
 			(width 0)
@@ -5347,6 +5736,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 160.02) (xy 125.73 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb4ab59-6c63-4df7-9395-7aa37282d15b")
+	)
+	(wire
+		(pts
 			(xy 63.5 90.17) (xy 63.5 88.9)
 		)
 		(stroke
@@ -5354,6 +5753,16 @@
 			(type default)
 		)
 		(uuid "3f53564c-b45d-4fd1-a56b-919e14097b0c")
+	)
+	(wire
+		(pts
+			(xy 172.72 160.02) (xy 172.72 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9bb741-9535-4b82-8421-426a0840df44")
 	)
 	(wire
 		(pts
@@ -5447,7 +5856,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 144.78) (xy 125.73 146.05)
+			(xy 125.73 133.35) (xy 125.73 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5547,7 +5956,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 135.89) (xy 146.05 135.89)
+			(xy 128.27 124.46) (xy 146.05 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5644,6 +6053,16 @@
 			(type default)
 		)
 		(uuid "596d8672-6d20-41c8-a77e-24643ad307f5")
+	)
+	(wire
+		(pts
+			(xy 170.18 162.56) (xy 172.72 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a6c43d2-a6dc-49f5-9970-388340968b4e")
 	)
 	(wire
 		(pts
@@ -5797,7 +6216,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 146.05) (xy 135.89 140.97)
+			(xy 135.89 134.62) (xy 135.89 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5834,16 +6253,6 @@
 			(type default)
 		)
 		(uuid "6b86cf81-aa04-4c1e-99e6-2c961030a509")
-	)
-	(wire
-		(pts
-			(xy 63.5 109.22) (xy 64.77 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bf6fb9e-b9c3-4f92-8f06-6609da85029b")
 	)
 	(wire
 		(pts
@@ -5927,7 +6336,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 143.51) (xy 146.05 143.51)
+			(xy 138.43 132.08) (xy 146.05 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6007,7 +6416,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 143.51) (xy 181.61 143.51)
+			(xy 179.07 132.08) (xy 181.61 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6017,13 +6426,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 109.22) (xy 66.04 109.22)
+			(xy 63.5 109.22) (xy 66.04 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85003557-0a18-4c8c-8d7f-cd33b7d65679")
+		(uuid "84008749-94ab-4e28-bd30-22ce4d01f10e")
 	)
 	(wire
 		(pts
@@ -6097,7 +6506,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 138.43) (xy 146.05 138.43)
+			(xy 144.78 127) (xy 146.05 127)
 		)
 		(stroke
 			(width 0)
@@ -6217,6 +6626,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 77.47) (xy 256.54 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a39d6c4-3e0d-40c5-99bd-f51794ff58f5")
+	)
+	(wire
+		(pts
 			(xy 83.82 36.83) (xy 78.74 36.83)
 		)
 		(stroke
@@ -6227,7 +6646,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 135.89) (xy 128.27 135.89)
+			(xy 125.73 124.46) (xy 128.27 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6247,7 +6666,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 138.43) (xy 181.61 135.89)
+			(xy 181.61 127) (xy 181.61 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6267,7 +6686,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 129.54) (xy 128.27 130.81)
+			(xy 128.27 118.11) (xy 128.27 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6287,7 +6706,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 140.97) (xy 181.61 140.97)
+			(xy 179.07 129.54) (xy 181.61 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6337,7 +6756,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 138.43) (xy 181.61 138.43)
+			(xy 179.07 127) (xy 181.61 127)
 		)
 		(stroke
 			(width 0)
@@ -6397,7 +6816,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 135.89) (xy 125.73 137.16)
+			(xy 125.73 124.46) (xy 125.73 125.73)
 		)
 		(stroke
 			(width 0)
@@ -6407,7 +6826,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 147.32) (xy 181.61 143.51)
+			(xy 181.61 135.89) (xy 181.61 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6497,7 +6916,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 130.81) (xy 130.81 130.81)
+			(xy 128.27 119.38) (xy 130.81 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6587,6 +7006,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 162.56) (xy 162.56 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba6c9ff-0a9a-4e19-8cd4-103849245112")
+	)
+	(wire
+		(pts
 			(xy 153.67 39.37) (xy 153.67 41.91)
 		)
 		(stroke
@@ -6607,7 +7036,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 135.89) (xy 125.73 135.89)
+			(xy 120.65 124.46) (xy 125.73 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6647,7 +7076,17 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 133.35) (xy 181.61 133.35)
+			(xy 248.92 80.01) (xy 256.54 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf44a924-7e01-47e2-8b39-0499ee3d64fb")
+	)
+	(wire
+		(pts
+			(xy 179.07 121.92) (xy 181.61 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6677,7 +7116,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 137.16) (xy 120.65 135.89)
+			(xy 170.18 160.02) (xy 172.72 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e33307-b379-4db4-bbb4-5e6111272751")
+	)
+	(wire
+		(pts
+			(xy 120.65 125.73) (xy 120.65 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6687,7 +7136,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 135.89) (xy 181.61 133.35)
+			(xy 181.61 124.46) (xy 181.61 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6784,6 +7233,16 @@
 			(type default)
 		)
 		(uuid "cfa9c0f6-ed61-43fb-a397-f77573dcbba1")
+	)
+	(wire
+		(pts
+			(xy 63.5 107.95) (xy 63.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff90be2-4ad6-4b79-9fa2-5cfb342715a2")
 	)
 	(wire
 		(pts
@@ -6947,6 +7406,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 160.02) (xy 162.56 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d1d043-5ea1-410a-b16a-35a53894513a")
+	)
+	(wire
+		(pts
 			(xy 189.23 92.71) (xy 198.12 92.71)
 		)
 		(stroke
@@ -7057,13 +7526,23 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 140.97) (xy 146.05 140.97)
+			(xy 135.89 129.54) (xy 146.05 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ed16367c-2104-4e7e-ad94-518091abc883")
+	)
+	(polyline
+		(pts
+			(xy 114.3 142.24) (xy 187.96 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee35b03c-fe9d-4789-a828-d4e7fa783d8f")
 	)
 	(wire
 		(pts
@@ -7117,7 +7596,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 133.35) (xy 146.05 133.35)
+			(xy 138.43 121.92) (xy 146.05 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7197,7 +7676,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 135.89) (xy 181.61 135.89)
+			(xy 179.07 124.46) (xy 181.61 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7217,7 +7696,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 133.35) (xy 181.61 130.81)
+			(xy 181.61 121.92) (xy 181.61 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7257,7 +7736,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 146.05) (xy 125.73 146.05)
+			(xy 120.65 134.62) (xy 125.73 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7307,6 +7786,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 162.56) (xy 125.73 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2407ec-5d43-4419-b265-5c696333cbca")
+	)
+	(wire
+		(pts
 			(xy 264.16 35.56) (xy 257.81 35.56)
 		)
 		(stroke
@@ -7315,8 +7804,18 @@
 		)
 		(uuid "ffa4763c-8b5a-440d-93e4-f2ff13154364")
 	)
+	(label "GPIO3"
+		(at 119.38 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0390b1a4-11d2-42fa-a861-df3acd960520")
+	)
 	(label "GPIO12"
-		(at 138.43 143.51 0)
+		(at 138.43 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7324,6 +7823,16 @@
 			(justify left bottom)
 		)
 		(uuid "041698aa-071f-4e70-9bd1-061c521c81d1")
+	)
+	(label "GPIO5"
+		(at 119.38 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09da19c9-931e-46d7-a567-56ebcf11a1be")
 	)
 	(label "QSPI_SS"
 		(at 22.86 148.59 0)
@@ -7356,7 +7865,7 @@
 		(uuid "1bf26280-5057-4f70-8bc0-33e3b5493341")
 	)
 	(label "GPIO10"
-		(at 129.54 138.43 0)
+		(at 129.54 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7374,6 +7883,16 @@
 			(justify left bottom)
 		)
 		(uuid "33bc7d22-e62b-402e-9ada-f5bf5d6b0a65")
+	)
+	(label "GPIO5"
+		(at 256.54 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "365603b0-3ff5-435a-b824-d50855cfc2d2")
 	)
 	(label "SWCLK"
 		(at 133.35 184.15 0)
@@ -7414,6 +7933,16 @@
 			(justify left bottom)
 		)
 		(uuid "59f40df6-c284-4bfc-83a3-a6747ba3fcd5")
+	)
+	(label "GPIO4"
+		(at 256.54 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b724362-0883-4c90-97b9-67e031214f55")
 	)
 	(label "GPIO2"
 		(at 256.54 74.93 180)
@@ -7555,6 +8084,16 @@
 		)
 		(uuid "8b89b925-1cfa-4bc1-98ef-734befef4835")
 	)
+	(label "GPIO4"
+		(at 119.38 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "959293d5-0dea-4b31-b89a-1b36969fcb88")
+	)
 	(label "GPIO26_ADC0"
 		(at 262.89 138.43 180)
 		(effects
@@ -7576,7 +8115,7 @@
 		(uuid "a06c790c-99b6-4ee2-9fe7-4660360fc327")
 	)
 	(label "GPIO11"
-		(at 138.43 133.35 0)
+		(at 138.43 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7634,6 +8173,16 @@
 			(justify left bottom)
 		)
 		(uuid "b7a4f895-31f5-4eda-a5f8-f05bfe322c6d")
+	)
+	(label "GPIO3"
+		(at 256.54 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b90ffca3-4ae2-4c78-b973-ff7badf48202")
 	)
 	(label "QSPI_SCLK"
 		(at 187.96 102.87 0)
@@ -7776,7 +8325,7 @@
 		(uuid "f8b13782-d938-4194-ac33-7d5ed167f847")
 	)
 	(label "GPIO13"
-		(at 138.43 130.81 0)
+		(at 138.43 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7793,7 +8342,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "00f343e0-66ce-4c76-8476-124354bd5436")
 		(property "Reference" "#PWR01"
 			(at 233.68 38.1 0)
@@ -7804,8 +8352,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 233.68 29.21 0)
+		(property "Value" "+3V3"
+			(at 233.172 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7876,7 +8424,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 189.23 83.058 90)
 			(effects
 				(font
@@ -7896,6 +8444,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 189.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 189.23 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0402FR-0727RL"
+			(at 189.23 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8075,7 +8641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 32.7152 50.8 0)
 			(effects
 				(font
@@ -8102,6 +8668,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 31.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX5R6BB105"
+			(at 31.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f6b8f89d-0e78-4b30-9510-1e82259ee33b")
 		)
@@ -8119,7 +8703,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 147.32 0)
+		(at 135.89 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8127,7 +8711,7 @@
 		(dnp no)
 		(uuid "1b588bf3-128a-404d-98df-caf71161b1f3")
 		(property "Reference" "#PWR028"
-			(at 135.89 153.67 0)
+			(at 135.89 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,7 +8720,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 151.13 0)
+			(at 135.89 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8144,7 +8728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 147.32 0)
+			(at 135.89 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8153,7 +8737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 147.32 0)
+			(at 135.89 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8162,7 +8746,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 147.32 0)
+			(at 135.89 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8209,7 +8793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 96.2152 186.69 0)
 			(effects
 				(font
@@ -8236,6 +8820,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 95.25 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402MPX5R4BB106"
+			(at 95.25 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "03fbbd65-cdec-492e-b789-7b07519e1148")
 		)
@@ -8246,6 +8848,91 @@
 			(project "fpv_sound_logger"
 				(path "/fe7426db-2793-42b6-bf2d-bb812410543c"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 166.37 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2291fc25-01be-4895-a243-b26fc9e87622")
+		(property "Reference" "R9"
+			(at 162.306 159.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 170.434 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 166.37 161.798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 166.37 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0402JR-7D1KL"
+			(at 166.37 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87ca9cbb-4d7e-4374-b5f2-23306778e7cd")
+		)
+		(pin "1"
+			(uuid "ac53943a-3f1b-4ec6-affb-c1419c0d75b0")
+		)
+		(instances
+			(project "fpv_sound_logger"
+				(path "/fe7426db-2793-42b6-bf2d-bb812410543c"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8485,6 +9172,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Winbond"
+			(at 31.75 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "4e30dfae-408d-4c92-bccf-a660abefc128")
 		)
@@ -8536,7 +9232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 183.896 63.5 0)
 			(effects
 				(font
@@ -8601,7 +9297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 157.988 41.91 90)
 			(effects
 				(font
@@ -8644,6 +9340,72 @@
 			(project "fpv_sound_logger"
 				(path "/fe7426db-2793-42b6-bf2d-bb812410543c"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 270.51 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f8704ef-97e9-49e3-bd1b-282ea063a00d")
+		(property "Reference" "#FLG01"
+			(at 270.51 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 270.51 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 270.51 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a6d07ac-8807-487b-a758-a7281089dd91")
+		)
+		(instances
+			(project ""
+				(path "/fe7426db-2793-42b6-bf2d-bb812410543c"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -8741,7 +9503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 246.0752 44.45 0)
 			(effects
 				(font
@@ -8760,6 +9522,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 245.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 245.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R7BB104"
 			(at 245.11 40.64 0)
 			(effects
 				(font
@@ -8915,6 +9695,91 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 166.37 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41f4a795-c937-4b42-9222-817c648a9949")
+		(property "Reference" "R10"
+			(at 161.798 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 170.434 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 166.37 164.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 166.37 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0402JR-7D1KL"
+			(at 166.37 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "86aafe12-6e43-4121-a95a-e7e6213a33eb")
+		)
+		(pin "1"
+			(uuid "09517c49-acdc-4337-a6b1-b0b96be870a0")
+		)
+		(instances
+			(project "fpv_sound_logger"
+				(path "/fe7426db-2793-42b6-bf2d-bb812410543c"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 190.5 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8938,7 +9803,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 190.5 71.628 90)
 			(effects
 				(font
@@ -8958,6 +9823,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 190.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 190.5 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0402FR-0710KL"
+			(at 190.5 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9063,7 +9946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 102.362 143.764 0)
 			(effects
 				(font
@@ -9199,6 +10082,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "INMP441ACEZ-R7"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK InvenSense"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "d1c96af7-7e87-4a3e-a250-ed3c90bc45c3")
 		)
@@ -9262,7 +10163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 265.1252 44.45 0)
 			(effects
 				(font
@@ -9281,6 +10182,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 264.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 264.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R7BB104"
 			(at 264.16 40.64 0)
 			(effects
 				(font
@@ -9402,6 +10321,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "SM04B-SRSS-TB(LF)(SN)"
+			(at 124.46 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a5917f09-8b1a-47cb-b40a-736a6b713e73")
 		)
@@ -9456,7 +10384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 252.4252 44.45 0)
 			(effects
 				(font
@@ -9483,6 +10411,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 251.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R7BB104"
+			(at 251.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2ec1830-5909-4913-80b8-43ebb8686c9a")
 		)
@@ -9500,7 +10446,7 @@
 	)
 	(symbol
 		(lib_id "SoundLogger:DM3D-SF")
-		(at 146.05 128.27 0)
+		(at 146.05 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9509,7 +10455,7 @@
 		(fields_autoplaced yes)
 		(uuid "58b36cdd-486a-47d1-9ebe-1ee69e399e5e")
 		(property "Reference" "J1"
-			(at 162.56 120.65 0)
+			(at 162.56 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9517,7 +10463,7 @@
 			)
 		)
 		(property "Value" "DM3D-SF"
-			(at 162.56 123.19 0)
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9525,7 +10471,7 @@
 			)
 		)
 		(property "Footprint" "fpv_sound_logger:DM3DSF"
-			(at 175.26 223.19 0)
+			(at 175.26 211.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,7 +10481,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-7/sf-000141252.pdf"
-			(at 175.26 323.19 0)
+			(at 175.26 311.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9545,7 +10491,7 @@
 			)
 		)
 		(property "Description" "Micro SD card push pull manual"
-			(at 146.05 128.27 0)
+			(at 146.05 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9554,7 +10500,7 @@
 			)
 		)
 		(property "Height" "1.55"
-			(at 175.26 523.19 0)
+			(at 175.26 511.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9564,7 +10510,7 @@
 			)
 		)
 		(property "Mouser Part Number" "798-DM3D-SF"
-			(at 175.26 623.19 0)
+			(at 175.26 611.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9574,7 +10520,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DM3D-SF?qs=nSryOFbzj8L3f0GFYlvXkw%3D%3D"
-			(at 175.26 723.19 0)
+			(at 175.26 711.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9584,7 +10530,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Hirose"
-			(at 175.26 823.19 0)
+			(at 175.26 811.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9594,12 +10540,21 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DM3D-SF"
-			(at 175.26 923.19 0)
+			(at 175.26 911.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HRS"
+			(at 146.05 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9656,7 +10611,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 120.65 140.97 0)
+		(at 120.65 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9664,7 +10619,7 @@
 		(dnp no)
 		(uuid "58ba43c9-0a63-46a7-9481-a5c9177a3319")
 		(property "Reference" "C19"
-			(at 116.332 138.684 0)
+			(at 116.332 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,7 +10628,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 115.316 143.256 0)
+			(at 115.316 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9681,8 +10636,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 121.6152 144.78 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 121.6152 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9691,7 +10646,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 140.97 0)
+			(at 120.65 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9700,7 +10655,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 120.65 140.97 0)
+			(at 120.65 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 120.65 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R7BB104"
+			(at 120.65 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9880,7 +10853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 209.2452 57.15 0)
 			(effects
 				(font
@@ -9899,6 +10872,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 208.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 208.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX5R6BB105"
 			(at 208.28 53.34 0)
 			(effects
 				(font
@@ -9930,7 +10921,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6bdb2830-b0eb-41bd-b49b-ce777ac99fa4")
 		(property "Reference" "#PWR021"
 			(at 107.95 104.14 0)
@@ -9941,12 +10931,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 107.95 95.25 0)
+		(property "Value" "+3V3"
+			(at 104.648 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9989,6 +10980,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 172.72 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73264c47-364d-4074-8652-cd227f25773b")
+		(property "Reference" "#PWR035"
+			(at 172.72 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 175.006 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 172.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99396241-d1ef-4122-9402-8769f69b6b24")
+		)
+		(instances
+			(project "fpv_sound_logger"
+				(path "/fe7426db-2793-42b6-bf2d-bb812410543c"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 63.5 115.57 0)
 		(unit 1)
@@ -10015,7 +11072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 64.4652 119.38 0)
 			(effects
 				(font
@@ -10034,6 +11091,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 63.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 63.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402MPX5R4BB106"
 			(at 63.5 115.57 0)
 			(effects
 				(font
@@ -10084,7 +11159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 239.7252 44.45 0)
 			(effects
 				(font
@@ -10103,6 +11178,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R7BB104"
 			(at 238.76 40.64 0)
 			(effects
 				(font
@@ -10289,6 +11382,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "TYPE-C 16PIN 2MD(073)"
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "50b7f8b1-df56-4ec2-94e8-9a230c0bcf6b")
 		)
@@ -10342,7 +11444,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 147.32 0)
+		(at 181.61 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10350,7 +11452,7 @@
 		(dnp no)
 		(uuid "82a44af3-6c7a-4e81-85a3-0bd9a39be7b0")
 		(property "Reference" "#PWR030"
-			(at 181.61 153.67 0)
+			(at 181.61 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10359,7 +11461,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 151.13 0)
+			(at 181.61 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10367,7 +11469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 147.32 0)
+			(at 181.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10376,7 +11478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 147.32 0)
+			(at 181.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10385,7 +11487,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 147.32 0)
+			(at 181.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10472,7 +11574,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 64.77 107.95 0)
+		(at 63.5 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10480,7 +11582,7 @@
 		(dnp no)
 		(uuid "8f1b5375-fc86-4b89-ac31-44cd12c34d89")
 		(property "Reference" "#PWR015"
-			(at 64.77 111.76 0)
+			(at 63.5 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10489,7 +11591,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 62.484 105.156 0)
+			(at 61.214 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10497,7 +11599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 107.95 0)
+			(at 63.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10506,7 +11608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 107.95 0)
+			(at 63.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10515,7 +11617,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 64.77 107.95 0)
+			(at 63.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10537,7 +11639,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 125.73 140.97 0)
+		(at 125.73 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10545,7 +11647,7 @@
 		(dnp no)
 		(uuid "9521bcb1-5654-4c75-bcdc-0bade5007090")
 		(property "Reference" "C20"
-			(at 121.412 138.684 0)
+			(at 121.412 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10554,7 +11656,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 122.428 143.256 0)
+			(at 122.428 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,8 +11664,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 126.6952 144.78 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 126.6952 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10572,7 +11674,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 140.97 0)
+			(at 125.73 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10581,7 +11683,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 125.73 140.97 0)
+			(at 125.73 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 125.73 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX5R6BB105"
+			(at 125.73 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10631,7 +11751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 215.5952 44.45 0)
 			(effects
 				(font
@@ -10650,6 +11770,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 214.63 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 214.63 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R7BB104"
 			(at 214.63 40.64 0)
 			(effects
 				(font
@@ -10972,6 +12110,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "onsemi"
+			(at 147.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9bca0a8e-2b0a-40f4-bf4e-c3a733160856")
 		)
@@ -10997,7 +12144,7 @@
 		(dnp no)
 		(uuid "a60cec0c-e06f-4947-9cc0-f1369fcc5556")
 		(property "Reference" "D2"
-			(at 58.674 107.95 0)
+			(at 56.896 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11005,7 +12152,7 @@
 			)
 		)
 		(property "Value" "SS14"
-			(at 55.626 105.41 0)
+			(at 52.578 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11091,6 +12238,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "onsemi"
+			(at 44.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "726adb1e-6b62-40ab-a508-4c1aa22ca389")
 		)
@@ -11133,7 +12289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 277.8252 44.45 0)
 			(effects
 				(font
@@ -11152,6 +12308,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 276.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 276.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R7BB104"
 			(at 276.86 40.64 0)
 			(effects
 				(font
@@ -11279,6 +12453,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "onsemi"
+			(at 66.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1200197-7b47-4958-9de6-5376e683f730")
 		)
@@ -11302,7 +12485,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 138.43 90)
+		(at 140.97 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11310,7 +12493,7 @@
 		(dnp no)
 		(uuid "afd22c2e-2e31-4002-aab7-ce4a932c5a17")
 		(property "Reference" "R7"
-			(at 136.906 139.7 90)
+			(at 136.906 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11318,15 +12501,15 @@
 			)
 		)
 		(property "Value" "22"
-			(at 144.78 139.446 90)
+			(at 144.78 128.016 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 140.97 140.208 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 140.97 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11335,7 +12518,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 138.43 0)
+			(at 140.97 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11344,7 +12527,25 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 140.97 138.43 0)
+			(at 140.97 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 140.97 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0402FR-7D22RL"
+			(at 140.97 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11450,7 +12651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 167.386 185.674 0)
 			(effects
 				(font
@@ -11525,7 +12726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 84.7852 45.72 0)
 			(effects
 				(font
@@ -11552,6 +12753,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 83.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX5R6BB105"
+			(at 83.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9698b52-8ab6-4eac-ac42-f107908b3e52")
 		)
@@ -11562,6 +12781,146 @@
 			(project "fpv_sound_logger"
 				(path "/fe7426db-2793-42b6-bf2d-bb812410543c"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SoundLogger:IN-S66TFT5R5G5B")
+		(at 125.73 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b29a24ea-9a92-4415-81c3-ba044ba78e69")
+		(property "Reference" "LED1"
+			(at 144.018 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN-S66TFT5R5G5B"
+			(at 143.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fpv_sound_logger:INS66TFT5R5G5B"
+			(at 157.48 254.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ph/en/products/detail/inolux/IN-S66TFT5R5G5B/14555718?msockid=39f1ec84d77b6f4428b7f904d6676eed"
+			(at 157.48 354.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red, Green, Blue (RGB) 620nm Red, 525nm Green, 470nm Blue LED Indication - Discrete 2V Red, 2.8V Green, 2.8V Blue 0606 (1616 Metric)"
+			(at 122.682 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at 157.48 554.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S66TFT5R5G5B"
+			(at 157.48 654.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Inolux/IN-S66TFT5R5G5B?qs=stqOd1AaK7%2FLVY5moRrQGg%3D%3D"
+			(at 157.48 754.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Inolux"
+			(at 157.48 854.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S66TFT5R5G5B"
+			(at 157.48 954.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 125.73 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6de1a455-28cb-40d5-9488-0a81009ed5bf")
+		)
+		(pin "3"
+			(uuid "e52f368e-02f3-417e-bec3-67c323e87515")
+		)
+		(pin "6"
+			(uuid "49b7ea55-60dd-4413-95b9-28bd8576ff50")
+		)
+		(pin "1"
+			(uuid "a1b950b0-e956-435d-921f-02e4a3000972")
+		)
+		(pin "5"
+			(uuid "ffe85564-1e3e-4a8d-a024-934adf82830b")
+		)
+		(pin "2"
+			(uuid "a0df3f22-e365-4198-a5c7-fa4708127edb")
+		)
+		(instances
+			(project ""
+				(path "/fe7426db-2793-42b6-bf2d-bb812410543c"
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -11594,7 +12953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 240.9952 58.42 0)
 			(effects
 				(font
@@ -11613,6 +12972,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 240.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 240.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX5R6BB105"
 			(at 240.03 54.61 0)
 			(effects
 				(font
@@ -11644,7 +13021,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b7d45a1b-51f7-42b2-a0ea-d01d0c20fb7f")
 		(property "Reference" "#PWR05"
 			(at 218.44 38.1 0)
@@ -11656,7 +13032,7 @@
 			)
 		)
 		(property "Value" "+1V1"
-			(at 218.44 29.21 0)
+			(at 217.932 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11794,7 +13170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 271.4752 44.45 0)
 			(effects
 				(font
@@ -11813,6 +13189,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 270.51 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 270.51 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R7BB104"
 			(at 270.51 40.64 0)
 			(effects
 				(font
@@ -12070,6 +13464,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "ABRACON"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "217db61d-7148-4977-87f5-1686266a9a6c")
 		)
@@ -12262,6 +13665,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "OMRON"
+			(at 43.18 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40ed68fb-024d-4789-abe9-7a45c66061c5")
 		)
@@ -12369,7 +13781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 108.9152 118.11 0)
 			(effects
 				(font
@@ -12388,6 +13800,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402MPX5R4BB106"
 			(at 107.95 114.3 0)
 			(effects
 				(font
@@ -12429,7 +13859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 95.25 174.244 0)
 			(effects
 				(font
@@ -12478,6 +13908,91 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 166.37 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d567426c-265b-4c39-9324-f2153e19d9bc")
+		(property "Reference" "R11"
+			(at 161.798 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 170.434 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 166.37 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 166.37 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0402JR-7D1KL"
+			(at 166.37 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "75176ed8-2202-4690-b0a3-963148b25f58")
+		)
+		(pin "1"
+			(uuid "849e3ca1-62be-4509-b4b7-7492f6e85198")
+		)
+		(instances
+			(project "fpv_sound_logger"
+				(path "/fe7426db-2793-42b6-bf2d-bb812410543c"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 189.23 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12501,7 +14016,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 189.23 77.978 90)
 			(effects
 				(font
@@ -12521,6 +14036,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 189.23 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0402FR-0727RL"
+			(at 189.23 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12561,7 +14094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 153.924 49.022 0)
 			(effects
 				(font
@@ -12570,7 +14103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 154.6352 50.8 0)
 			(effects
 				(font
@@ -12589,6 +14122,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 153.67 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 153.67 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R7BB104"
 			(at 153.67 46.99 0)
 			(effects
 				(font
@@ -12704,7 +14255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 209.2452 44.45 0)
 			(effects
 				(font
@@ -12723,6 +14274,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 208.28 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 208.28 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R7BB104"
 			(at 208.28 40.64 0)
 			(effects
 				(font
@@ -12901,7 +14470,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 99.568 90)
 			(effects
 				(font
@@ -12921,6 +14490,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 59.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 59.69 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0402JR-075K1L"
+			(at 59.69 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12968,7 +14555,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 55.88 90.678 90)
 			(effects
 				(font
@@ -12988,6 +14575,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 55.88 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0402JR-075K1L"
+			(at 55.88 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13037,7 +14642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 94.9452 160.02 0)
 			(effects
 				(font
@@ -13056,6 +14661,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 93.98 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 93.98 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX5R6BB105"
 			(at 93.98 156.21 0)
 			(effects
 				(font
@@ -13104,7 +14727,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 83.82 33.528 90)
 			(effects
 				(font
@@ -13131,6 +14754,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 83.82 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0402FR-0727RL"
+			(at 83.82 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ed44fe06-e15a-4121-b5d7-e60f79bb93eb")
 		)
@@ -13148,7 +14789,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 130.81 90)
+		(at 134.62 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13156,7 +14797,7 @@
 		(dnp no)
 		(uuid "e3294006-d535-4827-be11-75216641ef21")
 		(property "Reference" "R4"
-			(at 131.826 128.778 90)
+			(at 131.826 117.348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13164,15 +14805,15 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 136.398 128.778 90)
+			(at 136.398 117.348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 134.62 132.588 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 134.62 121.158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13181,7 +14822,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 130.81 0)
+			(at 134.62 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13190,7 +14831,25 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 130.81 0)
+			(at 134.62 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 134.62 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0402FR-7D47KL"
+			(at 134.62 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13240,7 +14899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 258.7752 44.45 0)
 			(effects
 				(font
@@ -13259,6 +14918,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 257.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R7BB104"
 			(at 257.81 40.64 0)
 			(effects
 				(font
@@ -13414,7 +15091,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 128.27 129.54 0)
+		(at 128.27 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13422,7 +15099,7 @@
 		(dnp no)
 		(uuid "faf35a3f-e25b-40b1-8bca-2df48511bcea")
 		(property "Reference" "#PWR029"
-			(at 128.27 133.35 0)
+			(at 128.27 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13430,8 +15107,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 130.556 125.984 0)
+		(property "Value" "+3V3"
+			(at 130.556 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13440,7 +15117,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 129.54 0)
+			(at 128.27 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13449,7 +15126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 129.54 0)
+			(at 128.27 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13458,7 +15135,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 128.27 129.54 0)
+			(at 128.27 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13525,6 +15202,24 @@
 			)
 		)
 		(property "Description" "A microcontroller by Raspberry Pi"
+			(at 223.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Raspberry Pi"
+			(at 223.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RP2040"
 			(at 223.52 107.95 0)
 			(effects
 				(font
