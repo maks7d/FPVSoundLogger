@@ -5236,16 +5236,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 76.2) (xy 195.58 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "160fd148-5c3c-4992-b7f5-62cb88a8bed2")
-	)
-	(wire
-		(pts
 			(xy 129.54 127) (xy 137.16 127)
 		)
 		(stroke
@@ -5446,7 +5436,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 76.2) (xy 185.42 76.2)
+			(xy 170.18 76.2) (xy 177.8 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5606,7 +5596,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 81.28) (xy 185.42 81.28)
+			(xy 170.18 81.28) (xy 177.8 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6106,16 +6096,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 81.28) (xy 193.04 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d59622a-05ae-48c4-9a5a-f0a418280d31")
-	)
-	(wire
-		(pts
 			(xy 240.03 58.42) (xy 240.03 59.69)
 		)
 		(stroke
@@ -6183,6 +6163,16 @@
 			(type default)
 		)
 		(uuid "653b65d2-2c1e-4e69-8eb9-b007f569b78a")
+	)
+	(wire
+		(pts
+			(xy 185.42 81.28) (xy 195.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "654a3b2a-71b9-4991-91f4-91a28e551b1c")
 	)
 	(wire
 		(pts
@@ -6323,6 +6313,16 @@
 			(type default)
 		)
 		(uuid "72453c95-b73c-4be3-9b16-d867f431a3e0")
+	)
+	(wire
+		(pts
+			(xy 185.42 76.2) (xy 195.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730acdc5-7220-4e88-89f5-fcfca9b24c0d")
 	)
 	(wire
 		(pts
@@ -7915,7 +7915,7 @@
 		(uuid "51f9bf96-c214-45ad-ba78-5b63898efc4a")
 	)
 	(label "USB_D+"
-		(at 177.8 76.2 0)
+		(at 170.18 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7925,7 +7925,7 @@
 		(uuid "5973fbee-b864-4ddc-b0e3-1c21674cef16")
 	)
 	(label "USB_D-"
-		(at 177.8 81.28 0)
+		(at 170.18 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8194,6 +8194,16 @@
 		)
 		(uuid "bbab5973-e88f-4fdb-a80d-f49c70b98f0e")
 	)
+	(label "USB_DIFF-"
+		(at 186.69 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca1a1402-f5f7-45fa-8168-c8d35732c0f0")
+	)
 	(label "QSPI_SD2"
 		(at 22.86 153.67 0)
 		(effects
@@ -8203,6 +8213,16 @@
 			(justify left bottom)
 		)
 		(uuid "caaa0a7c-1f46-4969-99da-d0f07de7c53c")
+	)
+	(label "USB_DIFF+"
+		(at 186.69 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbf46489-4aad-4c61-a82f-5ec63d72d117")
 	)
 	(label "USB_D-"
 		(at 53.34 96.52 180)
@@ -8401,7 +8421,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 81.28 90)
+		(at 181.61 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8409,7 +8429,7 @@
 		(dnp no)
 		(uuid "02462bfd-fdbc-43c6-a9b9-64d50b32d6c7")
 		(property "Reference" "R2"
-			(at 186.944 79.248 90)
+			(at 179.324 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8417,7 +8437,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 191.262 79.248 90)
+			(at 183.642 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8425,7 +8445,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 189.23 83.058 90)
+			(at 181.61 83.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8434,7 +8454,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 81.28 0)
+			(at 181.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8443,7 +8463,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 189.23 81.28 0)
+			(at 181.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8452,7 +8472,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 189.23 81.28 90)
+			(at 181.61 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8461,7 +8481,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AC0402FR-0727RL"
-			(at 189.23 81.28 90)
+			(at 181.61 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13993,7 +14013,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 76.2 90)
+		(at 181.61 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14001,7 +14021,7 @@
 		(dnp no)
 		(uuid "d5ff8d56-0d43-4b26-9c07-c65e494c1402")
 		(property "Reference" "R1"
-			(at 187.198 73.914 90)
+			(at 179.578 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14009,7 +14029,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 191.77 73.914 90)
+			(at 184.15 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14017,7 +14037,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 189.23 77.978 90)
+			(at 181.61 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14026,7 +14046,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 76.2 0)
+			(at 181.61 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14035,7 +14055,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 189.23 76.2 0)
+			(at 181.61 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14044,7 +14064,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 189.23 76.2 90)
+			(at 181.61 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14053,7 +14073,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AC0402FR-0727RL"
-			(at 189.23 76.2 90)
+			(at 181.61 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
