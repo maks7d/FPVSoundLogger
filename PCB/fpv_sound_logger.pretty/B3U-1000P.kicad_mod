@@ -1,14 +1,14 @@
 (footprint "B3U-1000P"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "B3U-1000P(M)")
 	(tags "Switch")
 	(property "Reference" "S**"
-		(at -0.461 0.206 0)
+		(at -0.461 -2.3 0)
 		(layer "F.SilkS")
-		(uuid "be67c5a6-5023-4e5f-8273-e50b675a3715")
+		(uuid "08a57aed-3ea1-44c6-a554-4e3613f568bc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +20,7 @@
 		(at -0.461 0.206 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "1b34fc1f-114b-4bbc-a9c9-76cdc3ccb4e6")
+		(uuid "0be55177-edfe-43a4-8dde-39990c3dff64")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d1ea43f7-2804-4612-8517-25f1ef009449")
+		(uuid "2f8109ba-919d-4051-b4cc-23b1818109e0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3a59dbe2-b0ba-451a-88c0-791b7d9117d0")
+		(uuid "2a2280e1-288a-4804-a0f6-69759279bc6c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.5 -1.25)
 		(end 1.5 -1.25)
@@ -61,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "534e8d02-95eb-4820-a109-84bc4bc6fead")
+		(uuid "1f8c5252-ee85-4e5c-b6b7-08060b78f899")
 	)
 	(fp_line
 		(start -1.5 1.25)
@@ -71,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a5570f4f-c39c-4f5f-881d-2ae31748c05c")
+		(uuid "a4a25ed3-1343-4cf4-a522-c1fd67e5304d")
 	)
 	(fp_circle
 		(center 2.395 -0.971)
@@ -82,7 +83,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "16222088-97bd-4d13-b609-4bacaabd5c45")
+		(uuid "ceaa415d-1e21-400c-8033-589ec910134d")
 	)
 	(fp_line
 		(start -1.5 -1.25)
@@ -92,7 +93,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1e803832-d2be-43dc-a682-6cca0ce2ace0")
+		(uuid "bf105283-d8c8-403e-abb1-1b890a49f29c")
 	)
 	(fp_line
 		(start -1.5 1.25)
@@ -102,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "186b0c1f-84bb-470c-b891-2f53c64e62b5")
+		(uuid "111b2214-6e42-43b6-9b43-4b1c3bc99348")
 	)
 	(fp_line
 		(start 1.5 -1.25)
@@ -112,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "bf441a5d-2477-445d-b1c0-fb73f28c54af")
+		(uuid "97eb039a-a829-487a-8237-76972ecf3fe3")
 	)
 	(fp_line
 		(start 1.5 1.25)
@@ -122,12 +123,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8dd76b99-9878-4ade-851b-6fee69a49ce2")
+		(uuid "5a3c660e-1879-4430-a259-46695997dc77")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -0.461 0.206 0)
 		(layer "F.Fab")
-		(uuid "f209eaa2-1303-473e-9fdc-c23c9de4e5ec")
+		(uuid "41f23f01-583a-4466-bee1-cbd7d31bb42f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -139,16 +140,16 @@
 		(at 1.7 0)
 		(size 0.8 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "8dd8f79e-c0e1-4a43-a1e3-094f2a7b757d")
+		(uuid "62e8c000-aa64-4ce1-bcab-74e470f2bd1c")
 	)
 	(pad "2" smd rect
 		(at -1.7 0)
 		(size 0.8 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "45a04aeb-c3da-47ea-9334-b9236e495c33")
+		(uuid "c3257bbf-b211-4ac7-8a68-f61b6022b6ec")
 	)
 	(embedded_fonts no)
-	(model "B3U-1000P.stp"
+	(model "C:/Users/maxim/repos/FPVSoundLogger/PCB/3D/B3U-1000P.stp"
 		(offset
 			(xyz 0 0 0)
 		)
