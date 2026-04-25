@@ -300,6 +300,180 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SoundLogger:B3U-1000P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S"
+				(at 16.51 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "B3U-1000P"
+				(at 16.51 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "B3U-1000P"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3u.pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "OMRON ELECTRONIC COMPONENTS - B3U-1000P - SWITCH, SPST-NO, 0.05A, 12V, SMD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" ""
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "653-B3U-1000P"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/B3U-1000P?qs=AO7BQMcsEu4ip80xyf2FwA%3D%3D"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "OMRON Electronics"
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "B3U-1000P"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "B3U-1000P_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SoundLogger:IN-S66TFT5R5G5B"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1853,6 +2027,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "RST"
+		(exclude_from_sim no)
+		(at 244.856 60.452 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "75081eb0-e6b3-4fd2-b87e-23bc6d376890")
+	)
 	(text "RGB LED indicator"
 		(exclude_from_sim no)
 		(at 60.96 21.59 0)
@@ -1863,9 +2047,19 @@
 		)
 		(uuid "bab56e52-f9c0-4da2-8b7d-8de8dfea0e3f")
 	)
+	(text "BOOTSEL"
+		(exclude_from_sim no)
+		(at 243.586 26.162 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bd4a8b41-641c-4c78-9631-7e68160ad75b")
+	)
 	(text "Microphone"
 		(exclude_from_sim no)
-		(at 145.542 56.388 0)
+		(at 57.912 104.648 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1874,7 +2068,7 @@
 		(uuid "c4bf25c4-b6b4-473c-877d-afd5efc04722")
 	)
 	(junction
-		(at 158.75 87.63)
+		(at 71.12 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b30dd27-bc73-48af-884c-41cae7a54946")
@@ -1892,20 +2086,20 @@
 		(uuid "4c05ec5a-b138-4231-99fb-8af18eb7cb7d")
 	)
 	(junction
-		(at 133.35 81.28)
+		(at 45.72 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5186bbcf-cb93-489f-b879-7d8ee58479eb")
 	)
 	(junction
-		(at 163.83 77.47)
+		(at 76.2 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e89157ed-1bf9-41c3-af3f-89153a52c92c")
 	)
 	(wire
 		(pts
-			(xy 163.83 74.93) (xy 163.83 77.47)
+			(xy 76.2 123.19) (xy 76.2 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1915,7 +2109,17 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 77.47) (xy 163.83 78.74)
+			(xy 237.49 71.12) (xy 238.76 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13817167-60b7-4433-ac96-6be1ec73f896")
+	)
+	(wire
+		(pts
+			(xy 76.2 125.73) (xy 76.2 127)
 		)
 		(stroke
 			(width 0)
@@ -1935,7 +2139,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 86.36) (xy 163.83 87.63)
+			(xy 76.2 134.62) (xy 76.2 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1955,7 +2159,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 82.55) (xy 133.35 81.28)
+			(xy 237.49 68.58) (xy 238.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac4cddf-f858-42d9-b90f-d02e381ed633")
+	)
+	(wire
+		(pts
+			(xy 45.72 130.81) (xy 45.72 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1965,7 +2179,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 81.28) (xy 134.62 81.28)
+			(xy 45.72 129.54) (xy 46.99 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1995,7 +2209,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 73.66) (xy 134.62 73.66)
+			(xy 45.72 121.92) (xy 46.99 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2005,13 +2219,33 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 80.01) (xy 157.48 80.01)
+			(xy 71.12 128.27) (xy 69.85 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "479dbbff-efaa-415a-802c-8a2bcc901e3d")
+	)
+	(wire
+		(pts
+			(xy 236.22 34.29) (xy 237.49 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bbf1506-2b34-43d8-86a2-f855762475de")
+	)
+	(wire
+		(pts
+			(xy 236.22 39.37) (xy 236.22 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a0ff2d-3e52-4b82-b40a-fd8d51e5370d")
 	)
 	(wire
 		(pts
@@ -2025,7 +2259,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 74.93) (xy 163.83 74.93)
+			(xy 69.85 123.19) (xy 76.2 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2045,7 +2279,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 76.2) (xy 134.62 76.2)
+			(xy 45.72 124.46) (xy 46.99 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2055,7 +2289,17 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 87.63) (xy 163.83 87.63)
+			(xy 236.22 36.83) (xy 237.49 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6d9789-a484-4ae5-86b0-275e6ea3e170")
+	)
+	(wire
+		(pts
+			(xy 71.12 135.89) (xy 76.2 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2075,7 +2319,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 71.12) (xy 134.62 71.12)
+			(xy 45.72 119.38) (xy 46.99 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2085,7 +2329,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 87.63) (xy 158.75 88.9)
+			(xy 71.12 135.89) (xy 71.12 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2115,7 +2359,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 78.74) (xy 133.35 81.28)
+			(xy 45.72 127) (xy 45.72 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2135,7 +2379,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 78.74) (xy 133.35 78.74)
+			(xy 46.99 127) (xy 45.72 127)
 		)
 		(stroke
 			(width 0)
@@ -2145,7 +2389,17 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 80.01) (xy 158.75 87.63)
+			(xy 237.49 73.66) (xy 237.49 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3bd8e42-ccbd-45ab-b4dd-b3cf497380f1")
+	)
+	(wire
+		(pts
+			(xy 71.12 128.27) (xy 71.12 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2195,7 +2449,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 77.47) (xy 163.83 77.47)
+			(xy 69.85 125.73) (xy 76.2 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2205,7 +2459,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 72.39) (xy 163.83 72.39)
+			(xy 69.85 120.65) (xy 76.2 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2235,7 +2489,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 77.47) (xy 165.1 77.47)
+			(xy 76.2 125.73) (xy 77.47 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2293,6 +2547,54 @@
 		)
 		(uuid "d4a5f20b-9f11-4da6-bfd1-e48716fb866f")
 	)
+	(global_label "RUN"
+		(shape input)
+		(at 237.49 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f58d116-3650-4ea3-b6ae-f0c898c2615f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 230.5738 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO23"
+		(shape input)
+		(at 236.22 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1cb440e0-c4b1-410f-bb15-457f50583edb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.3405 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GPIO4"
 		(shape input)
 		(at 39.37 36.83 180)
@@ -2343,7 +2645,7 @@
 	)
 	(global_label "GPIO28_ADC2"
 		(shape input)
-		(at 133.35 76.2 180)
+		(at 45.72 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2353,7 +2655,7 @@
 		)
 		(uuid "8fb615cb-0cff-4e00-a88c-eceae6eaad18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.6648 76.2 0)
+			(at 30.0348 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2391,7 +2693,7 @@
 	)
 	(global_label "GPIO27_ADC1"
 		(shape input)
-		(at 133.35 71.12 180)
+		(at 45.72 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2401,7 +2703,7 @@
 		)
 		(uuid "c0724888-eb0d-4e48-a8c5-4f977ef89427")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.6648 71.12 0)
+			(at 30.0348 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2415,7 +2717,7 @@
 	)
 	(global_label "GPIO26_ADC0"
 		(shape input)
-		(at 133.35 73.66 180)
+		(at 45.72 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2425,7 +2727,7 @@
 		)
 		(uuid "d2da9411-83f8-4548-85b6-7f4b04047044")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.6648 73.66 0)
+			(at 30.0348 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2468,7 +2770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 43.18 75.438 90)
 			(hide yes)
 			(show_name no)
@@ -2492,17 +2794,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 43.18 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 43.18 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2540,7 +2831,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 163.83 82.55 0)
+		(at 76.2 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2550,7 +2841,7 @@
 		(dnp no)
 		(uuid "11c2fc3a-d850-44ca-aa29-7b15ebd2505a")
 		(property "Reference" "C18"
-			(at 164.084 80.264 0)
+			(at 76.454 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2561,7 +2852,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 164.084 84.582 0)
+			(at 76.454 132.842 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2572,7 +2863,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 164.7952 86.36 0)
+			(at 77.1652 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2583,7 +2874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 82.55 0)
+			(at 76.2 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2594,18 +2885,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 163.83 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 163.83 82.55 0)
+			(at 76.2 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2616,7 +2896,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 163.83 82.55 0)
+			(at 76.2 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2636,6 +2916,149 @@
 			(project "fpv_sound_logger"
 				(path "/fe7426db-2793-42b6-bf2d-bb812410543c/72002da3-c41f-4458-a190-9327b8e25cce"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SoundLogger:B3U-1000P")
+		(at 237.49 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23bc37d0-454d-42be-85cb-309638ac60ca")
+		(property "Reference" "S1"
+			(at 242.824 29.972 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3U-1000P"
+			(at 245.872 30.734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "fpv_sound_logger:B3U-1000P"
+			(at 254 129.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3u.pdf"
+			(at 254 229.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "OMRON ELECTRONIC COMPONENTS - B3U-1000P - SWITCH, SPST-NO, 0.05A, 12V, SMD"
+			(at 237.49 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 254 429.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "653-B3U-1000P"
+			(at 254 529.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/B3U-1000P?qs=AO7BQMcsEu4ip80xyf2FwA%3D%3D"
+			(at 254 629.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "OMRON Electronics"
+			(at 254 729.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B3U-1000P"
+			(at 254 829.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "2a47af21-6fbb-4ba9-b5a2-8bade779a9a0")
+		)
+		(pin "2"
+			(uuid "bf5c6818-2c96-4ad9-82af-59da0b165790")
+		)
+		(instances
+			(project "fpv_sound_logger"
+				(path "/fe7426db-2793-42b6-bf2d-bb812410543c/72002da3-c41f-4458-a190-9327b8e25cce"
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -2672,7 +3095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 91.44 36.068 90)
 			(hide yes)
 			(show_name no)
@@ -2696,17 +3119,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 91.44 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 91.44 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2868,17 +3280,6 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer" "Inolux"
-			(at 40.64 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "4"
 			(uuid "88423163-3877-47c1-ad81-2134eaeac186")
 		)
@@ -2937,7 +3338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 91.44 38.608 90)
 			(hide yes)
 			(show_name no)
@@ -2961,17 +3362,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 91.44 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 91.44 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3085,8 +3475,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 165.1 77.47 270)
+		(lib_id "power:GND")
+		(at 236.22 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3094,9 +3484,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "68c67e3b-ed73-4102-91a7-6c7737c34e2c")
-		(property "Reference" "#PWR027"
-			(at 161.29 77.47 0)
+		(uuid "541d0978-8edd-415e-914e-7185910a5502")
+		(property "Reference" "#PWR023"
+			(at 236.22 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3106,19 +3496,18 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 168.148 77.47 90)
+		(property "Value" "GND"
+			(at 236.22 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 77.47 0)
+			(at 236.22 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3129,7 +3518,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 77.47 0)
+			(at 236.22 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "147b274c-69fd-444c-b201-23f1051e7c64")
+		)
+		(instances
+			(project "fpv_sound_logger"
+				(path "/fe7426db-2793-42b6-bf2d-bb812410543c/72002da3-c41f-4458-a190-9327b8e25cce"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 77.47 125.73 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68c67e3b-ed73-4102-91a7-6c7737c34e2c")
+		(property "Reference" "#PWR027"
+			(at 73.66 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 80.518 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3140,7 +3607,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 165.1 77.47 0)
+			(at 77.47 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3164,7 +3631,7 @@
 	)
 	(symbol
 		(lib_id "SoundLogger:INMP441ACEZ-R7")
-		(at 147.32 77.47 0)
+		(at 59.69 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3174,7 +3641,7 @@
 		(dnp no)
 		(uuid "8647d48c-19f1-4264-9145-5066fbac4899")
 		(property "Reference" "U2"
-			(at 146.05 63.5 0)
+			(at 58.42 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3184,7 +3651,7 @@
 			)
 		)
 		(property "Value" "INMP441ACEZ-R7"
-			(at 145.796 67.31 0)
+			(at 58.166 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3194,7 +3661,7 @@
 			)
 		)
 		(property "Footprint" "fpv_sound_logger:MID-SMD_L4.7-W3.8_INMP441ACEZ"
-			(at 146.558 66.294 0)
+			(at 58.928 114.554 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3205,7 +3672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 77.47 0)
+			(at 59.69 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3216,7 +3683,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 77.47 0)
+			(at 59.69 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3227,7 +3694,7 @@
 			)
 		)
 		(property "Manufacturer Part" "INMP441ACEZ-R7"
-			(at 146.812 89.154 0)
+			(at 59.182 137.414 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3238,7 +3705,7 @@
 			)
 		)
 		(property "Supplier Part" "C22379536"
-			(at 147.066 91.44 0)
+			(at 59.436 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3249,7 +3716,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 147.32 86.106 0)
+			(at 59.69 134.366 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3260,7 +3727,7 @@
 			)
 		)
 		(property "LCSC Part Name" "INMP441ACEZ-R7"
-			(at 147.066 93.98 0)
+			(at 59.436 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3271,18 +3738,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "INMP441ACEZ-R7"
-			(at 147.32 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TDK InvenSense"
-			(at 147.32 77.47 0)
+			(at 59.69 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3515,7 +3971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 91.44 41.148 90)
 			(hide yes)
 			(show_name no)
@@ -3539,17 +3995,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 91.44 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 91.44 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3586,8 +4031,151 @@
 		)
 	)
 	(symbol
+		(lib_id "SoundLogger:B3U-1000P")
+		(at 238.76 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aeffed94-187c-4704-a0cd-05d31181ab5c")
+		(property "Reference" "S2"
+			(at 244.094 64.262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3U-1000P"
+			(at 248.666 63.246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "fpv_sound_logger:B3U-1000P"
+			(at 255.27 163.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3u.pdf"
+			(at 255.27 263.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "OMRON ELECTRONIC COMPONENTS - B3U-1000P - SWITCH, SPST-NO, 0.05A, 12V, SMD"
+			(at 238.76 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 255.27 463.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "653-B3U-1000P"
+			(at 255.27 563.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/B3U-1000P?qs=AO7BQMcsEu4ip80xyf2FwA%3D%3D"
+			(at 255.27 663.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "OMRON Electronics"
+			(at 255.27 763.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B3U-1000P"
+			(at 255.27 863.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "8f650737-fd21-4236-8e3e-d847d423e8da")
+		)
+		(pin "2"
+			(uuid "3295496f-7dac-4f75-aab2-cba8f13c9dd7")
+		)
+		(instances
+			(project "fpv_sound_logger"
+				(path "/fe7426db-2793-42b6-bf2d-bb812410543c/72002da3-c41f-4458-a190-9327b8e25cce"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 133.35 82.55 0)
+		(at 45.72 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3597,7 +4185,7 @@
 		(dnp no)
 		(uuid "c57db261-44e7-4ae9-a2a6-06cb5708b66c")
 		(property "Reference" "#PWR025"
-			(at 133.35 88.9 0)
+			(at 45.72 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3608,7 +4196,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 86.36 0)
+			(at 45.72 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3618,7 +4206,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 82.55 0)
+			(at 45.72 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3629,7 +4217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 82.55 0)
+			(at 45.72 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3640,7 +4228,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 82.55 0)
+			(at 45.72 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3746,7 +4334,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 72.39 90)
+		(at 237.49 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3754,9 +4342,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ef36cf63-b38e-4c53-947d-4a10a3451339")
-		(property "Reference" "#PWR026"
-			(at 170.18 72.39 0)
+		(uuid "d5bdbee0-9a51-48a2-b8a1-bed76d13dda3")
+		(property "Reference" "#PWR029"
+			(at 237.49 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3767,7 +4355,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 72.39 0)
+			(at 237.49 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3777,7 +4365,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 72.39 0)
+			(at 237.49 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3788,7 +4376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 72.39 0)
+			(at 237.49 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3799,7 +4387,84 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 72.39 0)
+			(at 237.49 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcbc4bb7-cab3-497d-b6e7-122f7d8ea886")
+		)
+		(instances
+			(project "fpv_sound_logger"
+				(path "/fe7426db-2793-42b6-bf2d-bb812410543c/72002da3-c41f-4458-a190-9327b8e25cce"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef36cf63-b38e-4c53-947d-4a10a3451339")
+		(property "Reference" "#PWR026"
+			(at 82.55 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3823,7 +4488,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 88.9 0)
+		(at 71.12 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3833,7 +4498,7 @@
 		(dnp no)
 		(uuid "f33ab5d4-f944-4144-9cce-b62100fc30e5")
 		(property "Reference" "#PWR024"
-			(at 158.75 95.25 0)
+			(at 71.12 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3844,7 +4509,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 92.71 0)
+			(at 71.12 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3854,7 +4519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 88.9 0)
+			(at 71.12 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3865,7 +4530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 88.9 0)
+			(at 71.12 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3876,7 +4541,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 88.9 0)
+			(at 71.12 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
