@@ -1,0 +1,206 @@
+(footprint "MIC-TH_BD6.0-P1.90-D0.4-L-FD_GMI6050P-2CXXDB"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "U?"
+		(at -0.014967 -4.0005 0)
+		(layer "F.SilkS")
+		(uuid "60d6f2de-df08-4d6b-b172-2876019d21e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MIC-TH_BD6.0-P1.90-D0.4-L-FD_GMI6050P-2CXXDB"
+		(at -0.014967 4.030433 0)
+		(layer "F.Fab")
+		(uuid "fa835767-78da-4684-9b08-f827c6b3172f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a6494c9-f83f-4278-8dad-da3b68f162c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbb81626-70d4-4552-b0b6-e28326b64cd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_arc
+		(start -3 0)
+		(mid 0 -3)
+		(end 3 0)
+		(stroke
+			(width 0.051)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b20054be-aaba-4a41-bf66-e8a2cfe16e09")
+	)
+	(fp_arc
+		(start 3 0)
+		(mid 0 3)
+		(end -3 0)
+		(stroke
+			(width 0.051)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1250254-f6ba-4632-9968-43928aa0dfcc")
+	)
+	(fp_poly
+		(pts
+			(xy -1.5335 -1.579) (xy -0.4335 -1.579) (xy -0.4335 -1.279) (xy -1.5335 -1.279)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d4f91c17-7f16-409c-a35c-14e5730c8ba4")
+	)
+	(fp_poly
+		(pts
+			(xy -1.143 -2.032) (xy -0.843 -2.032) (xy -0.843 -0.832) (xy -1.143 -0.832)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f5f6b04b-377f-4cd0-936c-b3539a52a053")
+	)
+	(fp_poly
+		(pts
+			(xy 0.3575 -1.6325) (xy 1.4575 -1.6325) (xy 1.4575 -1.3325) (xy 0.3575 -1.3325)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e3a38548-e3b9-42d5-9efb-d8439aa0c298")
+	)
+	(fp_rect
+		(start -3.305433 -3.2755)
+		(end 3.2755 3.305433)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2f525d63-55f9-45f1-952f-fa604cb75cf5")
+	)
+	(fp_poly
+		(pts
+			(xy -2.944567 2.977039) (xy -2.977039 2.944567) (xy -3.022961 2.944567) (xy -3.055433 2.977039) (xy -3.055433 3.022961)
+			(xy -3.022961 3.055433) (xy -2.977039 3.055433) (xy -2.944567 3.022961)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "036341a5-e8b7-47b0-aed1-0bea4d304040")
+	)
+	(fp_poly
+		(pts
+			(xy -0.704804 -0.048773) (xy -0.742133 -0.138893) (xy -0.811107 -0.207867) (xy -0.901227 -0.245196)
+			(xy -0.998773 -0.245196) (xy -1.088893 -0.207867) (xy -1.157867 -0.138893) (xy -1.195196 -0.048773)
+			(xy -1.195196 0.048773) (xy -1.157867 0.138893) (xy -1.088893 0.207867) (xy -0.998773 0.245196) (xy -0.901227 0.245196)
+			(xy -0.811107 0.207867) (xy -0.742133 0.138893) (xy -0.704804 0.048773)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "071ed24b-9037-49e5-80e0-b8f172aa7b71")
+	)
+	(fp_poly
+		(pts
+			(xy 1.195196 -0.048773) (xy 1.157867 -0.138893) (xy 1.088893 -0.207867) (xy 0.998773 -0.245196) (xy 0.901227 -0.245196)
+			(xy 0.811107 -0.207867) (xy 0.742133 -0.138893) (xy 0.704804 -0.048773) (xy 0.704804 0.048773) (xy 0.742133 0.138893)
+			(xy 0.811107 0.207867) (xy 0.901227 0.245196) (xy 0.998773 0.245196) (xy 1.088893 0.207867) (xy 1.157867 0.138893)
+			(xy 1.195196 0.048773)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "d9af7d75-1b5c-4e28-8e09-f7655e53333e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.2 0)
+		(layer "F.Fab")
+		(uuid "95784900-deb2-40ea-8ccd-57552d9cd8ca")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -0.95 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "3823d98e-3e21-4743-8ea7-68a85584175e")
+	)
+	(pad "2" thru_hole circle
+		(at 0.95 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "5f86c383-639c-49c2-90cf-575d8d3ff149")
+	)
+	(embedded_fonts no)
+	(model "/home/maxime/repos/FPVSoundLogger/PCB/3D/POM-5038P-C3310-R.STEP"
+		(offset
+			(xyz 0 0 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

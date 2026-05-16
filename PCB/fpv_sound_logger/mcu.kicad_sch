@@ -5728,6 +5728,39 @@
 				(justify left top)
 			)
 		)
+		(property "MANUFACTURER" "Winbond"
+			(at 35.56 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 35.56 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C113767"
+			(at 35.56 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "630c938f-5fb2-4de6-98cd-dad7400ac215")
 		)
@@ -7545,7 +7578,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SC0914(13)"
+		(property "Manufacturer_Part_Number" "RP2040"
 			(at 95.25 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7567,7 +7600,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C3227924"
+		(property "Supplier Part" "C2040"
 			(at 95.25 118.11 0)
 			(hide yes)
 			(show_name no)

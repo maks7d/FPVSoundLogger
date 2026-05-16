@@ -474,6 +474,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SoundLogger:GMI6050P-36DB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "MIC"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "fpv_sound_logger:MIC-TH_BD6.0-P1.90-D0.4-L-FD_GMI6050P-2CXXDB"
+				(at -1.524 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180613/C233951_CF3F103FE3546E5F8FCD1BC0597FF08F.pdf"
+				(at 2.286 18.034 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "GMI6050P-36db"
+				(at 0 21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "INGHAi(赢海)"
+				(at 1.778 24.892 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C233939"
+				(at 0.508 -16.256 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0.508 -19.304 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "全指向φ6.0*5.0mm 1.5V-10V 灵敏度-36db 低阻抗 针脚"
+				(at 0.508 11.938 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GMI6050P-36DB_1_0"
+				(text "MIC"
+					(at -2.54 4.6228 0)
+					(effects
+						(font
+							(size 1.9558 1.9558)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -5.08 90)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -5.08 90)
+					(length 5.08)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "GMI6050P-36DB_1_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SoundLogger:IN-S66TFT5R5G5B"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -710,298 +886,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SoundLogger:INMP441ACEZ-R7"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ProLib_pcs_2025-12-16:MID-SMD_L4.7-W3.8_INMP441ACEZ"
-				(at -0.762 11.176 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "INMP441ACEZ-R7"
-				(at -0.508 -11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part" "C22379536"
-				(at -0.254 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 -8.636 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part Name" "INMP441ACEZ-R7"
-				(at -0.254 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "INMP441ACEZ-R7_1_0"
-				(rectangle
-					(start -10.16 8.89)
-					(end 7.62 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
-					)
-				)
-				(circle
-					(center -8.89 7.62)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 6.35 0)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 3.81 0)
-					(length 2.54)
-					(name "SD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 1.27 0)
-					(length 2.54)
-					(name "WS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -1.27 0)
-					(length 2.54)
-					(name "L/R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -3.81 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "CHIPEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2068,12 +1952,6 @@
 		(uuid "c4bf25c4-b6b4-473c-877d-afd5efc04722")
 	)
 	(junction
-		(at 71.12 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b30dd27-bc73-48af-884c-41cae7a54946")
-	)
-	(junction
 		(at 97.79 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2086,26 +1964,10 @@
 		(uuid "4c05ec5a-b138-4231-99fb-8af18eb7cb7d")
 	)
 	(junction
-		(at 45.72 129.54)
+		(at 60.96 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5186bbcf-cb93-489f-b879-7d8ee58479eb")
-	)
-	(junction
-		(at 76.2 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e89157ed-1bf9-41c3-af3f-89153a52c92c")
-	)
-	(wire
-		(pts
-			(xy 76.2 123.19) (xy 76.2 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0959236c-1c77-46e2-9b76-5ed7bdd42129")
+		(uuid "60f84398-c3f9-4cb3-9cf6-640df1370f9d")
 	)
 	(wire
 		(pts
@@ -2119,13 +1981,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 125.73) (xy 76.2 127)
+			(xy 60.96 134.62) (xy 60.96 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ba90f24-47d1-4112-b8f4-c1fc7743f6ce")
+		(uuid "1d6352d8-95fe-435c-97db-33d915ed8b17")
+	)
+	(wire
+		(pts
+			(xy 60.96 118.11) (xy 68.58 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24024586-cce7-4721-8599-641505499ea8")
 	)
 	(wire
 		(pts
@@ -2139,13 +2011,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 134.62) (xy 76.2 135.89)
+			(xy 63.5 134.62) (xy 60.96 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32aafe8a-80ab-4612-b09b-a5df06e831cf")
+		(uuid "332111f6-d4bb-44cc-af60-026a1f311c73")
 	)
 	(wire
 		(pts
@@ -2169,26 +2041,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 130.81) (xy 45.72 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d733c97-80f3-430c-9dd0-858f45fcac4e")
-	)
-	(wire
-		(pts
-			(xy 45.72 129.54) (xy 46.99 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ea80a7d-1bdb-40c3-b902-ef4db803b50d")
-	)
-	(wire
-		(pts
 			(xy 97.79 33.02) (xy 97.79 34.29)
 		)
 		(stroke
@@ -2199,6 +2051,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 118.11) (xy 80.01 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e373d8-163f-4508-b812-83c15a65b857")
+	)
+	(wire
+		(pts
 			(xy 71.12 73.66) (xy 69.85 73.66)
 		)
 		(stroke
@@ -2206,26 +2068,6 @@
 			(type default)
 		)
 		(uuid "436d3ddc-f234-4f97-9299-944df4e612e6")
-	)
-	(wire
-		(pts
-			(xy 45.72 121.92) (xy 46.99 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4415ce6c-de91-4d5d-8c81-cc20d3c613c2")
-	)
-	(wire
-		(pts
-			(xy 71.12 128.27) (xy 69.85 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "479dbbff-efaa-415a-802c-8a2bcc901e3d")
 	)
 	(wire
 		(pts
@@ -2259,16 +2101,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 123.19) (xy 76.2 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "546aed3f-a7e2-4c90-8025-feb0ccdd9fb1")
-	)
-	(wire
-		(pts
 			(xy 38.1 71.12) (xy 38.1 73.66)
 		)
 		(stroke
@@ -2276,16 +2108,6 @@
 			(type default)
 		)
 		(uuid "60a6ec04-a478-4eea-9336-973349a8188b")
-	)
-	(wire
-		(pts
-			(xy 45.72 124.46) (xy 46.99 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62115e5c-f779-428a-9443-0bb4c8bee404")
 	)
 	(wire
 		(pts
@@ -2299,16 +2121,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 135.89) (xy 76.2 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "781ee912-075c-4bc8-8b21-05ade34c0285")
-	)
-	(wire
-		(pts
 			(xy 38.1 73.66) (xy 39.37 73.66)
 		)
 		(stroke
@@ -2319,23 +2131,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 119.38) (xy 46.99 119.38)
+			(xy 52.07 123.19) (xy 52.07 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83d80a7f-124d-439d-a031-a5ef50a92fb7")
-	)
-	(wire
-		(pts
-			(xy 71.12 135.89) (xy 71.12 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a41da7c-9aa2-4f06-9508-883704fd7c93")
+		(uuid "8ccb7ad9-275b-411b-8409-c63f69db4cfc")
 	)
 	(wire
 		(pts
@@ -2359,13 +2161,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 127) (xy 45.72 129.54)
+			(xy 50.8 118.11) (xy 60.96 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8eddf7f-4cab-4ed9-8f6e-cda55364fbda")
+		(uuid "a7d07940-2337-40b9-a8aa-1b88fdc12dea")
+	)
+	(wire
+		(pts
+			(xy 50.8 123.19) (xy 52.07 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94a90a0-f238-45f5-99e4-a4ba483f11ae")
 	)
 	(wire
 		(pts
@@ -2379,16 +2191,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 127) (xy 45.72 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afede55b-f221-4719-95b2-781555929b37")
-	)
-	(wire
-		(pts
 			(xy 237.49 73.66) (xy 237.49 71.12)
 		)
 		(stroke
@@ -2396,16 +2198,6 @@
 			(type default)
 		)
 		(uuid "b3bd8e42-ccbd-45ab-b4dd-b3cf497380f1")
-	)
-	(wire
-		(pts
-			(xy 71.12 128.27) (xy 71.12 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba9a88c3-2fb1-447e-86cd-e0ecd3832165")
 	)
 	(wire
 		(pts
@@ -2439,6 +2231,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 118.11) (xy 60.96 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a7f343-a73f-473e-95cd-481d58c6f9cf")
+	)
+	(wire
+		(pts
 			(xy 76.2 39.37) (xy 87.63 39.37)
 		)
 		(stroke
@@ -2446,26 +2248,6 @@
 			(type default)
 		)
 		(uuid "db48ab15-76e5-4187-9f86-93d09affbc7f")
-	)
-	(wire
-		(pts
-			(xy 69.85 125.73) (xy 76.2 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb2b17a2-715f-4bef-a5bd-c48903f1bad1")
-	)
-	(wire
-		(pts
-			(xy 69.85 120.65) (xy 76.2 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef3c566c-830e-4ba6-84ca-7dbf5c880a9f")
 	)
 	(wire
 		(pts
@@ -2486,16 +2268,6 @@
 			(type default)
 		)
 		(uuid "f265b98b-cb4f-47aa-8d73-b6dec7483589")
-	)
-	(wire
-		(pts
-			(xy 76.2 125.73) (xy 77.47 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6cbd8ab-0937-47e3-ace4-a93586461c24")
 	)
 	(wire
 		(pts
@@ -2643,19 +2415,19 @@
 			)
 		)
 	)
-	(global_label "GPIO28_ADC2"
+	(global_label "GPIO26_ADC0"
 		(shape input)
-		(at 45.72 124.46 180)
+		(at 63.5 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "8fb615cb-0cff-4e00-a88c-eceae6eaad18")
+		(uuid "a493d252-6752-4dec-bd49-1bfaf702c7df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0348 124.46 0)
+			(at 79.1852 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2663,7 +2435,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -2691,19 +2463,19 @@
 			)
 		)
 	)
-	(global_label "GPIO27_ADC1"
-		(shape input)
-		(at 45.72 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0724888-eb0d-4e48-a8c5-4f977ef89427")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0348 119.38 0)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "012b6216-0d26-485a-9f91-3490bcfb99bb")
+		(property "Reference" "#PWR030"
+			(at 52.07 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2711,23 +2483,96 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ef359c3-5675-47d3-af48-227526a4b1fd")
+		)
+		(instances
+			(project "fpv_sound_logger"
+				(path "/fe7426db-2793-42b6-bf2d-bb812410543c/72002da3-c41f-4458-a190-9327b8e25cce"
+					(reference "#PWR030")
+					(unit 1)
+				)
 			)
 		)
 	)
-	(global_label "GPIO26_ADC0"
-		(shape input)
-		(at 45.72 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.39 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0cfc1179-b63e-4d6d-ae02-1dbc19c7a680")
+		(property "Reference" "R14"
+			(at 72.136 115.316 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify right)
 		)
-		(uuid "d2da9411-83f8-4548-85b6-7f4b04047044")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0348 121.92 0)
+		(property "Value" "2k2"
+			(at 72.39 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 72.39 119.888 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2735,7 +2580,86 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ3EKF1001V"
+			(at 72.39 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "PANASONIC"
+			(at 72.39 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 72.39 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C118155"
+			(at 72.39 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0a17b740-2360-40ce-9468-76f11fd62491")
+		)
+		(pin "1"
+			(uuid "3ab04f61-aae7-4b17-870a-b381e21684d6")
+		)
+		(instances
+			(project "fpv_sound_logger"
+				(path "/fe7426db-2793-42b6-bf2d-bb812410543c/72002da3-c41f-4458-a190-9327b8e25cce"
+					(reference "R14")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2857,131 +2781,6 @@
 			(project "fpv_sound_logger"
 				(path "/fe7426db-2793-42b6-bf2d-bb812410543c/72002da3-c41f-4458-a190-9327b8e25cce"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 76.2 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "11c2fc3a-d850-44ca-aa29-7b15ebd2505a")
-		(property "Reference" "C18"
-			(at 76.454 128.524 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 76.454 132.842 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 77.1652 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 76.2 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL10B104KB8NNNC"
-			(at 76.2 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Samsung Electro-Mechanics"
-			(at 76.2 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 76.2 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C1591"
-			(at 76.2 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9cba66e4-5d66-4c3d-b492-b843823de464")
-		)
-		(pin "2"
-			(uuid "d7943774-2275-4712-abf4-177e36443bd2")
-		)
-		(instances
-			(project "fpv_sound_logger"
-				(path "/fe7426db-2793-42b6-bf2d-bb812410543c/72002da3-c41f-4458-a190-9327b8e25cce"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3400,7 +3199,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IN-S66TFT5R5G5B"
+		(property "Manufacturer_Part_Number" "19-337/R6GHBHC-A01/2T"
 			(at 72.39 829.21 0)
 			(hide yes)
 			(show_name no)
@@ -3410,6 +3209,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "MANUFACTURER" "EVERLIGHT"
+			(at 40.64 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 40.64 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C264519"
+			(at 40.64 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -3557,6 +3389,152 @@
 			(project "fpv_sound_logger"
 				(path "/fe7426db-2793-42b6-bf2d-bb812410543c/72002da3-c41f-4458-a190-9327b8e25cce"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SoundLogger:GMI6050P-36DB")
+		(at 45.72 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b30b26a-6c7c-472a-9e8c-0a2699e9de38")
+		(property "Reference" "MIC1"
+			(at 41.91 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 45.72 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fpv_sound_logger:MIC-TH_BD6.0-P1.90-D0.4-L-FD_GMI6050P-2CXXDB"
+			(at 63.5 122.174 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180613/C233951_CF3F103FE3546E5F8FCD1BC0597FF08F.pdf"
+			(at 27.686 118.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "GMI6050P-36db"
+			(at 24.13 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C233939"
+			(at 61.976 120.142 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 65.024 120.142 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "全指向φ6.0*5.0mm 1.5V-10V 灵敏度-36db 低阻抗 针脚"
+			(at 33.782 120.142 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "INGHAi"
+			(at 45.72 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GMI6050P-36db"
+			(at 45.72 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d12e29c6-e41f-4410-b51f-cfdb572bcfb1")
+		)
+		(pin "1"
+			(uuid "f7b84deb-6b86-41ac-b173-c8112f883440")
+		)
+		(instances
+			(project "fpv_sound_logger"
+				(path "/fe7426db-2793-42b6-bf2d-bb812410543c/72002da3-c41f-4458-a190-9327b8e25cce"
+					(reference "MIC1")
 					(unit 1)
 				)
 			)
@@ -3711,239 +3689,6 @@
 			(project "fpv_sound_logger"
 				(path "/fe7426db-2793-42b6-bf2d-bb812410543c/72002da3-c41f-4458-a190-9327b8e25cce"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 77.47 125.73 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "68c67e3b-ed73-4102-91a7-6c7737c34e2c")
-		(property "Reference" "#PWR027"
-			(at 73.66 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 80.518 125.73 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 77.47 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "692efdab-208c-47cb-9594-252f1693a395")
-		)
-		(instances
-			(project "fpv_sound_logger"
-				(path "/fe7426db-2793-42b6-bf2d-bb812410543c/72002da3-c41f-4458-a190-9327b8e25cce"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SoundLogger:INMP441ACEZ-R7")
-		(at 59.69 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8647d48c-19f1-4264-9145-5066fbac4899")
-		(property "Reference" "U2"
-			(at 58.42 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INMP441ACEZ-R7"
-			(at 58.166 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fpv_sound_logger:MID-SMD_L4.7-W3.8_INMP441ACEZ"
-			(at 58.928 114.554 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "INMP441ACEZ-R7"
-			(at 59.182 137.414 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 59.436 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 59.69 134.366 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" "INMP441ACEZ-R7"
-			(at 59.436 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 59.69 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "a4e15544-8f30-4f7a-a582-4c4a3499bedd")
-		)
-		(pin "1"
-			(uuid "8be4a922-f542-482c-bb6b-994e1a403494")
-		)
-		(pin "2"
-			(uuid "1ae367ac-f794-4bc2-b491-d99b28540561")
-		)
-		(pin "3"
-			(uuid "d9f3ccfa-f9f9-4273-b1e5-112b3c74ccc4")
-		)
-		(pin "4"
-			(uuid "86218ad8-6fe7-4325-a978-7cf9fedfcda5")
-		)
-		(pin "6"
-			(uuid "f2030e6b-e870-41c9-890f-ed79a5e06fdf")
-		)
-		(pin "8"
-			(uuid "6edde099-3830-4ced-88f2-7142e372d0c9")
-		)
-		(pin "9"
-			(uuid "a3fb44ef-6648-4eb5-b8b6-e58f5b314e2d")
-		)
-		(pin "7"
-			(uuid "079ef259-c8c0-4f01-82fc-c8c660393719")
-		)
-		(instances
-			(project "fpv_sound_logger"
-				(path "/fe7426db-2793-42b6-bf2d-bb812410543c/72002da3-c41f-4458-a190-9327b8e25cce"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4405,83 +4150,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 45.72 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c57db261-44e7-4ae9-a2a6-06cb5708b66c")
-		(property "Reference" "#PWR025"
-			(at 45.72 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 45.72 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b3b70fb9-39e5-4c65-a1b9-610cba90e90e")
-		)
-		(instances
-			(project "fpv_sound_logger"
-				(path "/fe7426db-2793-42b6-bf2d-bb812410543c/72002da3-c41f-4458-a190-9327b8e25cce"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SoundLogger:LTST-C171KRKT")
 		(at 59.69 73.66 0)
 		(unit 1)
@@ -4525,7 +4193,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "LTST-C171KRKT"
+		(property "Datasheet" ""
 			(at 56.896 64.008 0)
 			(hide yes)
 			(show_name no)
@@ -4602,6 +4270,131 @@
 			(project "fpv_sound_logger"
 				(path "/fe7426db-2793-42b6-bf2d-bb812410543c/72002da3-c41f-4458-a190-9327b8e25cce"
 					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc025024-f894-408a-9bf7-e14182201a90")
+		(property "Reference" "C19"
+			(at 61.214 124.714 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 61.214 129.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 61.9252 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B104KB8NNNC"
+			(at 60.96 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 60.96 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 60.96 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C1591"
+			(at 60.96 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0ee2bdc-4a0b-42a3-9061-cbf0aa52844e")
+		)
+		(pin "2"
+			(uuid "7faa5f60-a34c-4930-b157-ce7841c6388a")
+		)
+		(instances
+			(project "fpv_sound_logger"
+				(path "/fe7426db-2793-42b6-bf2d-bb812410543c/72002da3-c41f-4458-a190-9327b8e25cce"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4685,8 +4478,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 76.2 120.65 90)
+		(lib_id "power:+5V")
+		(at 80.01 118.11 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4694,9 +4487,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ef36cf63-b38e-4c53-947d-4a10a3451339")
-		(property "Reference" "#PWR026"
-			(at 82.55 120.65 0)
+		(fields_autoplaced yes)
+		(uuid "f870d370-7ff4-425a-8113-e22520c01fec")
+		(property "Reference" "#PWR07"
+			(at 76.2 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4706,18 +4500,19 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 80.01 120.65 0)
+		(property "Value" "+5V"
+			(at 83.82 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 120.65 0)
+			(at 80.01 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4728,7 +4523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 120.65 0)
+			(at 80.01 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4738,85 +4533,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "37cafec0-07f8-4c5d-b389-87913d50c73c")
-		)
-		(instances
-			(project "fpv_sound_logger"
-				(path "/fe7426db-2793-42b6-bf2d-bb812410543c/72002da3-c41f-4458-a190-9327b8e25cce"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 71.12 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f33ab5d4-f944-4144-9cce-b62100fc30e5")
-		(property "Reference" "#PWR024"
-			(at 71.12 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 137.16 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 80.01 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4827,12 +4545,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5462d4d-1047-47b4-905b-57e39659592d")
+			(uuid "1f3e4d04-1b7a-4aca-adcd-0b6eb3309c32")
 		)
 		(instances
 			(project "fpv_sound_logger"
 				(path "/fe7426db-2793-42b6-bf2d-bb812410543c/72002da3-c41f-4458-a190-9327b8e25cce"
-					(reference "#PWR024")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
