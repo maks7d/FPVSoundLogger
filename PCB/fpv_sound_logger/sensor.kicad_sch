@@ -4341,7 +4341,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL10B104KB8NNNC"
+		(property "Manufacturer_Part_Number" "CL10B105KA8NNNC"
 			(at 60.96 127 0)
 			(hide yes)
 			(show_name no)
@@ -4374,7 +4374,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C1591"
+		(property "Supplier Part" "C29936"
 			(at 60.96 127 0)
 			(hide yes)
 			(show_name no)

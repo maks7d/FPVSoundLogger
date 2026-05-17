@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -27,6 +27,8 @@
       "GPIO23",
       "/sensor/ANODE_LED",
       "GPIO12",
+      "Net-(MIC1--)",
+      "GPIO26_ADC0",
       "GPIO0{slash}TX",
       "GPIO1{slash}RX",
       "+5V",
@@ -63,7 +65,6 @@
       "unconnected-(U4-GPIO22-Pad34)",
       "unconnected-(U4-GPIO24-Pad36)",
       "unconnected-(U4-GPIO25-Pad37)",
-      "GPIO26_ADC0",
       "GPIO27_ADC1",
       "GPIO28_ADC2",
       "unconnected-(U4-GPIO29{slash}ADC3-Pad41)",
@@ -120,7 +121,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffff575_ffd55db0",
+    "visible_layers": "ffffffff_ffffffff_fffff575_ffd55ff5",
     "zone_display_mode": 0
   },
   "git": {
